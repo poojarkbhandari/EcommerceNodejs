@@ -1,0 +1,29 @@
+{
+  "name": "e-commerce-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongodb.js",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2",
+    "validator": "^13.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
